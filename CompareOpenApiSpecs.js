@@ -5,7 +5,6 @@ const filePath = './OpenApiJsons'; // Tiedostopolku, jossa OpenAPI JSON-tiedosto
 const oldJsonName = 'old.json'; // Vanhemman OpenAPI JSON-tiedoston nimi
 const newJsonName = 'new.json'; // Uudemman OpenAPI JSON-tiedoston nimi
 
-// Funktio lataa JSON-tiedoston ja parseaa sen
 const loadJSON = (fileName) => {
   try {
     const data = fs.readFileSync(`${filePath}/${fileName}`, 'utf-8');
