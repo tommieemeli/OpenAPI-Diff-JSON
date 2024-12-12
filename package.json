@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "openapi-diff": "^0.23.7",
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2"
+  }
+}
