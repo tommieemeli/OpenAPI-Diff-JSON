@@ -8,7 +8,7 @@ const newJsonName = 'new.json'; // Uudemman OpenAPI JSON-tiedoston nimi
 const loadJSON = (fileName) => {
   try {
     const data = fs.readFileSync(`${filePath}/${fileName}`, 'utf-8');
-    return JSON.parse(data);
+    return JSON.parse(data); // Fiksua castata eka objektiks, sit takas jsoniks.. :-DD
   } catch (err) {
     console.error(`Error loading file ${filePath}:`, err);
     process.exit(1);
