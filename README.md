@@ -12,6 +12,10 @@ You can install them using npm:
 npm install
 ```
 
+```sh
+node CompareOpenApiSpecs.js
+```
+
 ## Example result
 
 ```sh
